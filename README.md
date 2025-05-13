@@ -154,6 +154,7 @@ pedido.add_item(plato)
 
 # Generar factura
 pedido.bill()
+
 """
 Factura para Juan Romero
 ----------------------------
