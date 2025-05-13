@@ -128,7 +128,7 @@ Gestiona el pedido. Gestiona los ítems seleccionados y calcular los montos corr
   - Impuestos.
   - Total final a pagar.
 
-## Métodos usados en la nayoría de subclases: 
+## Métodos usados en la mayoría de subclases: 
 - **`get_price()`**: modifica el precio dependiendo del criterio dado.
 - **`__str__()`**: devuelve una cadena que indica lo que lleva el producto.
 
