@@ -296,7 +296,7 @@ bebida = Beverage("Refresco", 2.50, "medium")
 plato = MainCourse("Pasta", 12.00, "regular", "pollo", "espagueti")
 
 PEDIDO:
-pedido = Order("Juan Pérez")
+pedido = Order("Juan Romero")
 pedido.add_item(bebida, 2)  
 pedido.add_item(plato)      
 
