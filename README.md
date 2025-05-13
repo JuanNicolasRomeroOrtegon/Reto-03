@@ -1,6 +1,6 @@
 # Reto-03
 En el código se implementa un sistema de facturación para un restaurante utilizando los conceptos de herencia y composición. Se modela un menú con distintos tipos de ítems (bebidas, platos fuertes, postres, etc.) y se calcula la cuenta total de un cliente, aplicando descuentos e impuestos cuando corresponda.
-Se adjuntó el código en Python y su respectiva representación UML.
+ - Está el código en Python y su respectiva representación UML.
 
 ## Características Generales 
 
