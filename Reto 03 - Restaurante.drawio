@@ -1,0 +1,239 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.4">
+  <diagram name="Page-1" id="NDBDvWFOQc0PkZV-9XZi">
+    <mxGraphModel dx="1618" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-1" value="&lt;div&gt;Menu Item&lt;/div&gt;&lt;div&gt;Clase Padre&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-2" value="&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- price: Float&lt;/div&gt;&lt;div&gt;- size: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-1">
+          <mxGeometry y="40" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-1">
+          <mxGeometry y="90" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-4" value="&lt;div&gt;+ __init__(name, price, size = &quot;regular&quot; )&lt;/div&gt;&lt;div&gt;+ total_price(quantity = 1): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-1">
+          <mxGeometry y="98" width="240" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.481;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-13" target="nRv0nt4ldDjZrG98DQlR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="120" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-10" value="Beverage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-11" value="- is_alcohol: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-10">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-10">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-13" value="&lt;div&gt;+ __init__(name,price, size, is_alcohol) &lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-10">
+          <mxGeometry y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-14" value="Appetizer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="260" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-15" value="&lt;div&gt;- with_sauce: boolean&lt;/div&gt;&lt;div&gt;- with_lemon: boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-14">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-14">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-17" value="&lt;div&gt;+ __init__(name, price, with_sauce, with_lemon)&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-14">
+          <mxGeometry y="78" width="160" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-17" target="nRv0nt4ldDjZrG98DQlR-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="410" as="sourcePoint" />
+            <mxPoint x="680" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-20" value="Soup " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-21" value="&lt;div&gt;- temperature: String&lt;/div&gt;&lt;div&gt;- with_tostacos: boolean&lt;/div&gt;&lt;div&gt;- with_avocado: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-20">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-20">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-23" value="&lt;div&gt;+ __init__(name, price, size, temperature) &lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String &lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-20">
+          <mxGeometry y="88" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.706;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-23" target="nRv0nt4ldDjZrG98DQlR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="350" as="sourcePoint" />
+            <mxPoint x="300" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="243" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-25" value="Main Course" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-30" width="320" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-26" value="&lt;div&gt;- protein: string&lt;/div&gt;&lt;div&gt;- carbs: string&lt;/div&gt;&lt;div&gt;- is_vegetarian: boolean&lt;/div&gt;&lt;div&gt;- walnut_allergy: boolean&lt;/div&gt;&lt;div&gt;- cereal_allergy: boolean&lt;/div&gt;&lt;div&gt;- egg_allergy: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-25">
+          <mxGeometry y="26" width="320" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-25">
+          <mxGeometry y="130" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-28" value="&lt;div&gt;+ __init__(name, price, size,&amp;nbsp; protein, carbs, is_vegetarian, walnut_allergy, cereal_allergy, egg_allergy)&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-25">
+          <mxGeometry y="138" width="320" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.141;exitY=1.028;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.858;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="679.1999999999999" y="182.01600000000008" as="sourcePoint" />
+            <mxPoint x="550.0000000000001" y="298.0799999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="679.08" y="210" />
+              <mxPoint x="550.08" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-31" value="Dessert" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="450" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-32" value="&lt;div&gt;- lactose_intolerant: boolean&lt;/div&gt;&lt;div&gt;- chocolate_addition: boolean&lt;/div&gt;&lt;div&gt;- ice_cream_adittion: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-31">
+          <mxGeometry y="26" width="250" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-31">
+          <mxGeometry y="80" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-34" value="&lt;div&gt;+ __init__(name, price,&amp;nbsp;lactose_intolerant, chocolate_addition, ice_cream_adittion) &lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-31">
+          <mxGeometry y="88" width="250" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.153;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.954;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-34" target="nRv0nt4ldDjZrG98DQlR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="sourcePoint" />
+            <mxPoint x="490" y="549" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="550" />
+              <mxPoint x="560" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-36" value="SideDish" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-37" value="&lt;div&gt;- is_spicy: boolean&lt;/div&gt;&lt;div&gt;- extra_cheese: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-36">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-36">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-39" value="&lt;div&gt;+ __init__(name, price, size, is_spicy, extra_cheese)&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-36">
+          <mxGeometry y="78" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.171;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-36" target="nRv0nt4ldDjZrG98DQlR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="500" as="sourcePoint" />
+            <mxPoint x="410" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-41" value="Salad" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="528" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-42" value="&lt;div&gt;- dressing_type: string&lt;/div&gt;&lt;div&gt;- chicken_adittion: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-41">
+          <mxGeometry y="26" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-41">
+          <mxGeometry y="70" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-44" value="&lt;div&gt;+ __init__(name, price, siez, dressing_ytpe, chicken_addition)&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-41">
+          <mxGeometry y="78" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.004;entryY=0.726;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-41" target="nRv0nt4ldDjZrG98DQlR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="480" as="sourcePoint" />
+            <mxPoint x="250" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-46" value="Coffee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="340" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-47" value="&lt;div&gt;- coofee_type: string&lt;/div&gt;&lt;div&gt;- milk_type: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-46">
+          <mxGeometry y="26" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-46">
+          <mxGeometry y="70" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-49" value="&lt;div&gt;+ __init__(name, price, size, coofee_type, milk_type) &lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-46">
+          <mxGeometry y="78" width="240" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.21;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nRv0nt4ldDjZrG98DQlR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="411" as="sourcePoint" />
+            <mxPoint x="220" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-53" value="KidsMeal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="50" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-54" value="&lt;div&gt;- main_item: String&lt;/div&gt;&lt;div&gt;- side_item: String&lt;/div&gt;&lt;div&gt;- drink: String&lt;/div&gt;&lt;div&gt;- toy: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-53">
+          <mxGeometry y="26" width="210" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-53">
+          <mxGeometry y="90" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-56" value="&lt;div&gt;+ __init__(name, price, main_item, side_item, drink, toy) &lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-53">
+          <mxGeometry y="98" width="210" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.471;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-56" target="nRv0nt4ldDjZrG98DQlR-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="280" as="sourcePoint" />
+            <mxPoint x="20" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="280" />
+              <mxPoint x="170" y="280" />
+              <mxPoint x="170" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-58" value="Special " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="650" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-59" value="&lt;div&gt;- day_of_week: String&lt;/div&gt;&lt;div&gt;- is_chef_recommendation: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-58">
+          <mxGeometry y="26" width="230" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-58">
+          <mxGeometry y="60" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-61" value="&lt;div&gt;+ __init__(name, price, day_of_week, is_chef_recommendation)&lt;/div&gt;&lt;div&gt;+ calculate_price(): Float&lt;/div&gt;&lt;div&gt;+ __str__(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-58">
+          <mxGeometry y="68" width="230" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.833;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nRv0nt4ldDjZrG98DQlR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="640" as="sourcePoint" />
+            <mxPoint x="530" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-64" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.083;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nRv0nt4ldDjZrG98DQlR-1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="190" y="-30" as="sourcePoint" />
+            <mxPoint x="350" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-65" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-430" width="245" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-66" value="- customer_name : str&lt;br&gt;- items : List&amp;lt;MenuItem&amp;gt;&lt;br&gt;- discount : float&lt;br&gt;- tax_rate : float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-65">
+          <mxGeometry y="26" width="245" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-67" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-65">
+          <mxGeometry y="100" width="245" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nRv0nt4ldDjZrG98DQlR-68" value="+ __init__(customer_name: str)&lt;br&gt;+ add_item(menu_item: MenuItem, quantity: int = 1) : None&lt;br&gt;+ calculate_subtotal() : float&lt;br&gt;+ apply_discounts() : None&lt;br&gt;+ calculate_tax() : float&lt;br&gt;+ calculate_total() : float&lt;br&gt;+ bill() : None&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nRv0nt4ldDjZrG98DQlR-65">
+          <mxGeometry y="108" width="245" height="132" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
