@@ -148,9 +148,21 @@ bebida = Beverage("Refresco", 2.50, "medium")
 plato = MainCourse("Pasta", 12.00, "regular", "pollo", "espagueti")
 
 # Crear pedido y agregar ítems
-pedido = Order("Juan Pérez")
+pedido = Order("Juan Romero")
 pedido.add_item(bebida, 2)  
 pedido.add_item(plato)
 
 # Generar factura
 pedido.bill()
+
+Factura para Juan Pérez
+----------------------------
+2 x Refresco (medium) - $5.50
+1 x Pasta - $12.00
+----------------------------
+Subtotal: $17.50
+Descuento: $0.00
+Impuesto: $1.40
+----------------------------
+Total: $18.90
+
