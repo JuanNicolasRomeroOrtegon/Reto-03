@@ -154,8 +154,8 @@ pedido.add_item(plato)
 
 # Generar factura
 pedido.bill()
-
-Factura para Juan Pérez
+"""
+Factura para Juan Romero
 ----------------------------
 2 x Refresco (medium) - $5.50
 1 x Pasta - $12.00
@@ -165,4 +165,4 @@ Descuento: $0.00
 Impuesto: $1.40
 ----------------------------
 Total: $18.90
-
+"""
